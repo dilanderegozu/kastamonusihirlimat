@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hakkımızda</title>
+    <link rel="stylesheet" href="about.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav__data">
+          <a href="index.html" class="nav__logo">
+            <img
+              src="./sihirli_matematik_dekupe-kopyasi-e1639840781463.png"
+              alt="Logo"
+            />
+          </a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line nav__burger"></i>
+            <i class="ri-close-line nav__close"></i>
+          </div>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="/index.html" class="nav__link">Ana Sayfa</a></li>
+
+            <li class="dropdown__item">
+              <div class="nav__link">
+                Hakkımızda <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="./about.html" class="dropdown__link">Biz Kimiz</a>
+                </li>
+                <li>
+                  <a href="./vision.html" class="dropdown__link"
+                    >Vizyon & Misyon</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="dropdown__item">
+              <div class="nav__link">
+                Başvurular <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="./student_apply.html" class="dropdown__link"
+                    >Öğrenci Başvuru & Kayıt</a
+                  >
+                </li>
+                <li>
+                  <a href="./teacher_apply.html" class="dropdown__link"
+                    >Eğitmen Başvuru</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="./contact.html" class="nav__link">İletişim</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="left section">
+        <h3>Hakkımızda</h3>
+        <p>
+          Sihirli Matematik, matematiği ezberletmeden öğreten, öğrencilerin
+          düşünme ve problem çözme becerilerini geliştirmeyi hedefleyen
+          yenilikçi bir eğitim modelidir. Amacımız; matematiği korkulan bir ders
+          olmaktan çıkarıp, anlaşılır, mantıklı ve eğlenceli hale getirmektir.
+          Eğitimlerimizde her öğrencinin bireysel öğrenme hızını ve
+          ihtiyaçlarını dikkate alır, konuları günlük hayattan örneklerle ve
+          görsel desteklerle anlatırız. Ezber yerine mantık kurmayı, formül
+          yerine düşünmeyi öğretiriz. İlkokuldan lise seviyesine kadar tüm
+          öğrenciler için özel olarak hazırlanan programlarımızla matematikte
+          özgüven kazandırmayı hedefleriz. Sihirli Matematik’te her öğrenci
+          başarabilir.
+        </p>
+      </section>
+      <section class="right section">
+        <video src="./kastamonu-kayitlar-basladi.mp4" controls></video>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__brand">
+          <img
+            src="./sihirli_matematik_dekupe-kopyasi-e1639840781463.png"
+            alt="Sihirli Matematik"
+            class="footer__logo"
+          />
+          <p>
+            Sihirli Matematik Kastamonu Bayisi olarak çocuklara matematiği
+            sevdiren, analitik düşünmeyi geliştiren özel eğitim modeli
+            sunuyoruz.
+          </p>
+        </div>
+
+        <div class="footer__links">
+          <h4>Hızlı Linkler</h4>
+          <ul>
+            <li><a href="./index.html">Ana Sayfa</a></li>
+            <li><a href="./vision.html">Hakkımızda</a></li>
+            <li><a href="./student_apply.html">Öğrenci Başvuru</a></li>
+            <li><a href="./teacher_apply.html">Eğitmen Başvuru</a></li>
+            <li><a href="./contact.html">İletişim</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__contact">
+          <h4>İletişim</h4>
+          <ul>
+            <li><i class="ri-map-pin-line"></i> Kastamonu</li>
+            <li><i class="ri-phone-line"></i> 0542 255 22 07</li>
+            <li><i class="ri-mail-line"></i> sihirlimatematikkastamonu@gmail.com</li>
+          </ul>
+
+          <div class="footer__social">
+            <a href="https://www.instagram.com/sihirlimatematikkakademi/"
+              ><i class="ri-instagram-line"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/sihirli-matematik-kastamonu-a41a22368/?originalSubdomain=tr"
+              ><i class="ri-linkedin-fill"></i
+            ></a>
+            <a href="https://wa.me/905422552207" target="_blank"
+              ><i class="ri-whatsapp-line"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2025 Sihirli Matematik Kastamonu Bayisi. Tüm hakları saklıdır.</p>
+      </div>
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script>
+  (function () {
+    emailjs.init("mZwZh7Bs_ImR2maHm");
+  })();
+</script>
+
+<script src="main.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İletişim</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./contact.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav__data">
+          <a href="index.html" class="nav__logo">
+            <img
+              src="./sihirli_matematik_dekupe-kopyasi-e1639840781463.png"
+              alt="Logo"
+            />
+          </a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line nav__burger"></i>
+            <i class="ri-close-line nav__close"></i>
+          </div>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="/index.html" class="nav__link">Ana Sayfa</a></li>
+
+            <li class="dropdown__item">
+              <div class="nav__link">
+                Hakkımızda <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="./about.html" class="dropdown__link">Biz Kimiz</a>
+                </li>
+                <li>
+                  <a href="./vision.html" class="dropdown__link"
+                    >Vizyon & Misyon</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="dropdown__item">
+              <div class="nav__link">
+                Başvurular <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="./student_apply.html" class="dropdown__link"
+                    >Öğrenci Başvuru & Kayıt</a
+                  >
+                </li>
+                <li>
+                  <a href="./teacher_apply.html" class="dropdown__link"
+                    >Eğitmen Başvuru</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="./contact.html" class="nav__link">İletişim</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="contact-wrapper">
+      <div class="contact-box">
+        <div class="content">
+          <div class="left-side">
+            <div class="address details">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="topic">Adres</div>
+              <div class="text-one">Kastamonu, Türkiye</div>
+            </div>
+            <div class="phone details">
+              <i class="fas fa-phone-alt"></i>
+              <div class="topic">Telefon</div>
+              <div class="text-one">0542 255 22 07</div>
+            </div>
+            <div class="email details">
+              <i class="fas fa-envelope"></i>
+              <div class="topic">E-Posta</div>
+              <div class="text-one">sihirlimatematikkastamonu@gmail.com</div>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="topic-text">Bize Ulaşın</div>
+            <p>
+              Benimle ilgili herhangi bir çalışmanız varsa ya da eğitimlerimle
+              ilgili her türlü soru ve görüşünüz için buradan bana mesaj
+              gönderebilirsiniz.
+            </p>
+
+            <form id="contactForm">
+              <div class="input-box">
+                <input type="text" name="isim" placeholder="İsminiz" required />
+              </div>
+
+              <div class="input-box">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="E-Posta Adresiniz"
+                  required
+                />
+              </div>
+
+              <div class="input-box message-box">
+                <textarea
+                  name="mesaj"
+                  placeholder="Mesajınızı Yazın"
+                  required
+                ></textarea>
+              </div>
+
+              <div class="button">
+                <input type="submit" value="Gönder" />
+              </div>
+            </form>
+            <p
+              id="form-message"
+              style="display: none; color: green; margin-top: 15px"
+            >
+              ✅ Formunuz başarıyla gönderildi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__brand">
+          <img
+            src="./sihirli_matematik_dekupe-kopyasi-e1639840781463.png"
+            alt="Sihirli Matematik"
+            class="footer__logo"
+          />
+          <p>
+            Sihirli Matematik Kastamonu Bayisi olarak çocuklara matematiği
+            sevdiren, analitik düşünmeyi geliştiren özel eğitim modeli
+            sunuyoruz.
+          </p>
+        </div>
+
+        <div class="footer__links">
+          <h4>Hızlı Linkler</h4>
+          <ul>
+            <li><a href="./index.html">Ana Sayfa</a></li>
+            <li><a href="./vision.html">Hakkımızda</a></li>
+            <li><a href="./student_apply.html">Öğrenci Başvuru</a></li>
+            <li><a href="./teacher_apply.html">Eğitmen Başvuru</a></li>
+            <li><a href="./contact.html">İletişim</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__contact">
+          <h4>İletişim</h4>
+          <ul>
+            <li><i class="ri-map-pin-line"></i> Kastamonu</li>
+            <li><i class="ri-phone-line"></i> 0542 255 22 07</li>
+            <li><i class="ri-mail-line"></i> sihirlimatematikkastamonu@gmail.com</li>
+          </ul>
+
+          <div class="footer__social">
+            <a href="https://www.instagram.com/sihirlimatematikkakademi/"
+              ><i class="ri-instagram-line"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/sihirli-matematik-kastamonu-a41a22368/?originalSubdomain=tr"
+              ><i class="ri-linkedin-fill"></i
+            ></a>
+            <a href="https://wa.me/905422552207" target="_blank"
+              ><i class="ri-whatsapp-line"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2025 Sihirli Matematik Kastamonu Bayisi. Tüm hakları saklıdır.</p>
+      </div>
+    </footer>
+ <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script>
+  (function () {
+    emailjs.init("mZwZh7Bs_ImR2maHm");
+  })();
+</script>
+
+<script src="main.js"></script>
+
+  </body>
+</html>

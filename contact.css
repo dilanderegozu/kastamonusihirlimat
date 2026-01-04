@@ -48,7 +48,7 @@ a {
   margin-inline: 1.5rem;
 }
 
-/*=============== HEADER & NAV ===============*/
+
 .header {
   position: fixed;
   top: 0;
@@ -133,7 +133,7 @@ a {
   background-color: var(--black-color-light);
 }
 
-/*=============== DROPDOWN ===============*/
+
 .dropdown__item {
   cursor: pointer;
 }
@@ -167,7 +167,7 @@ a {
   transition: background-color 0.3s;
 }
 
-/*=============== CONTACT SECTION ===============*/
+
 .contact-wrapper {
   margin-top: 120px;
   margin-bottom: 60px;
@@ -191,7 +191,6 @@ a {
   justify-content: space-between;
 }
 
-/* Left Side - Info */
 .left-side {
   width: 30%;
   display: flex;
@@ -233,7 +232,7 @@ a {
   word-break: break-word;
 }
 
-/* Right Side - Form */
+
 .right-side {
   width: 65%;
 }
@@ -339,7 +338,7 @@ a {
   font-size: 0.8rem;
 }
 
-/*=============== RESPONSIVE (MOBİL) ===============*/
+
 @media screen and (max-width: 800px) {
   .contact-box .content {
     flex-direction: column;
